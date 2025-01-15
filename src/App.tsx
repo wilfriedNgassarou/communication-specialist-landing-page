@@ -1,7 +1,14 @@
+import { Header } from "./components/header/header"
+import { Hero } from "./components/hero/hero"
+
 function App() {
   return (
-    <section className="h-dvh w-full bg-lime-100">
-    </section>
+    <>
+      <section className="w-full h-dvh flex flex-col">
+        <Header />
+        <Hero />
+      </section>
+    </>
   )
 }
 
