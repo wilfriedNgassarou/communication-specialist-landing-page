@@ -10,7 +10,7 @@ interface Props {
 
 export function ContactAddressItem({ item }: Props) {
   return (
-    <div className="px-0 lg:px-5 flex group cursor-default items-center fill-primary hover:fill-white w-80 gap-2 h-24 rounded-lg bg-white duration-100 hover:scale-x-105 hover:scale-y-105">
+    <div className="px-0 lg:px-5 flex group cursor-default items-center fill-primary hover:fill-white w-80 gap-2 h-24 rounded-lg bg-white duration-100 hover:shadow hover:scale-x-105 hover:scale-y-105">
       <div className="flex justify-center items-center w-12 h-12 rounded-md bg-gray-200 duration-100 group-hover:bg-primary bg-opacity-50">
         { item.icon == 'geo' && <GeoAlt size={24} className="fill-inherit" /> }
         { item.icon == 'envelope' && <EnvelopeAt size={24} className="fill-inherit" /> }
