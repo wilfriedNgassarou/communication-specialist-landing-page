@@ -2,8 +2,11 @@ import { services } from "../../constants/services";
 
 export function WhatIDo() {
   return (
-    <section className="h-auto lg:h-dvh w-full pt-20">
-      <section className="px-5 lg:px-20 w-full bg-gray-200/60 h-full flex flex-col gap-y-14 lg:flex-row lg:items-center">
+    <section
+      id="services" 
+      className="h-auto lg:h-dvh w-full pt-20"
+    >
+      <section className="px-5 lg:px-20 w-full bg-gray-100 h-full flex flex-col gap-y-14 lg:flex-row lg:items-center">
         <section className="w-full lg:w-1/2 px-0 lg:px-10 flex flex-col gap-4 pt-10 lg:pt-0">
           <h3 className="font-semibold text-3xl">What I do?</h3>
           <p className="text-gray-500">
@@ -20,7 +23,7 @@ export function WhatIDo() {
           {services.map((item, index) => (
             <div
               key={index} 
-              className="w-full h-56 lg:h-36 cursor-default hover:translate-x-3 hover:-translate-y-1 transition-transform duration-300 group rounded-lg overflow-hidden relative flex flex-col shadow-xl justify-between p-5 bg-white"
+              className="w-full h-56 md:h-36 cursor-default hover:translate-x-3 hover:-translate-y-1 transition-transform duration-300 group rounded-lg overflow-hidden relative flex flex-col shadow-xl justify-between p-5 bg-white"
             >
               <h2 className="font-semibold text-xl">{item.title}</h2>
               <p className="text-gray-500">{item.text}</p>

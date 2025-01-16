@@ -3,22 +3,25 @@ import { SocialsLinkContainer } from "./socials-link-container";
 
 export function About() {
   return (
-    <section className="h-auto lg:h-[90dvh] px-5 lg:px-20 relative -bottom-20">
+    <section
+      id="about" 
+      className="h-auto lg:h-[90dvh] px-5 lg:px-20 relative -bottom-20"
+    >
       <div
         style={{ boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)' }}
         className="bg-white w-full h-full rounded-lg py-6 px-6 lg:py-10 lg:px-16 flex flex-col-reverse gap-y-10 lg:flex-row lg:items-center"
       >
         <div className="flex justify-center lg:justify-start items-center h-full w-full lg:w-[45%]">
-          <div className="h-52 lg:h-96 aspect-square rounded-lg relative flex justify-center">
+          <div className="h-64 md:h-96 aspect-square rounded-lg relative flex justify-center">
             <img
-              className="h-52 lg:h-96 aspect-square object-cover rounded-xl"
+              className="h-full aspect-square object-cover rounded-xl"
               src="/hero.webp" 
               alt="Jane Picture" 
             />
             <SocialsLinkContainer />
           </div>
         </div>
-        <article className="h-auto lg:h-96 w-full lg:w-[55%] flex gap-y-6 lg:gap-y-0 flex-col justify-between">
+        <article className="h-auto lg:h-96 lg:py-4 w-full lg:w-[55%] flex gap-y-6 lg:gap-y-0 flex-col justify-between">
           <h2 className="font-semibold text-2xl lg:text-3xl text-pretty lg:text-balance">
             I am a Communication specialist, <span className="text-secondary">writer and story teller</span>
           </h2>
