@@ -13,7 +13,7 @@ export function Header() {
       </div>
       <div
         onClick={() => setIsOpen(!isOpen)} 
-        className="absolute z-20 right-2 top-4 lg:hidden"
+        className="absolute z-20 right-5 top-4 lg:hidden"
       >
         {isOpen ? <XLg size={24} /> : <List size={24} />}
       </div>

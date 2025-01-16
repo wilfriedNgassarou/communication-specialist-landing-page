@@ -15,11 +15,11 @@ export function Hero() {
   ]
 
   return (
-    <section className="lg:flex-grow pt-20 lg:pt-0 px-5 lg:px-20 w-full flex flex-col-reverse lg:flex-row items-center gap-2">
-      <article className="relative w-full lg:w-[45%] h-full rounded-3xl">
+    <section className="h-auto lg:flex-grow pt-20 lg:pt-0 px-5 lg:px-20 w-full flex flex-col-reverse lg:flex-row items-center gap-2">
+      <article className="w-full lg:w-[45%] h-96 lg:h-5/6 rounded-3xl">
         <img 
-          src="/hero.png" 
-          className="h-auto lg:h-full" 
+          src="/hero.webp" 
+          className="h-full" 
           alt="" 
         />
       </article>
