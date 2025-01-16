@@ -7,7 +7,7 @@ export function WorkProcess() {
       <div className="w-full h-20 bg-gray-200/60"></div>
       <section
         id="process" 
-        className="px-5 lg:px-20 h-auto lg:h-dvh w-full flex flex-col gap-y-14 lg:flex-row lg:items-center bg-gray-200/60"
+        className="px-5 lg:px-20 h-auto lg:h-dvh lg:min-h-[500px] lg:max-h-[700px] w-full flex flex-col gap-y-14 lg:flex-row lg:items-center bg-gray-200/60"
       >
         <section className="w-full lg:w-1/2 px-0 lg:px-10 flex flex-col gap-4 pt-10 lg:pt-0">
           <h3 className="font-semibold text-3xl mb-4">Work Process</h3>

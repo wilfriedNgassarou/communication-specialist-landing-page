@@ -5,7 +5,7 @@ export function About() {
   return (
     <section
       id="about" 
-      className="h-auto lg:h-[90dvh] px-5 lg:px-20 relative -bottom-20"
+      className="h-auto lg:h-[90dvh] lg:min-h-[500px] lg:max-h-[700px] px-5 lg:px-20 relative -bottom-20"
     >
       <div
         style={{ boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)' }}

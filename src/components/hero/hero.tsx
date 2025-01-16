@@ -16,7 +16,7 @@ export function Hero() {
 
   return (
     <section className="h-auto lg:flex-grow pt-20 lg:pt-0 px-5 lg:px-20 w-full flex flex-col-reverse gap-y-12 lg:flex-row items-center gap-2">
-      <article className="w-full lg:w-[45%] h-96 md:h-4/6 lg:h-5/6 flex justify-center rounded-3xl">
+      <article className="w-full lg:w-[45%] h-96 md:h-4/6 lg:h-5/6 max-h-[600px] flex justify-center rounded-3xl">
         <img 
           src="/hero.webp" 
           className="h-full" 

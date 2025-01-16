@@ -4,7 +4,7 @@ export function WhatIDo() {
   return (
     <section
       id="services" 
-      className="h-auto lg:h-dvh w-full pt-20"
+      className="h-auto lg:h-dvh lg:min-h-[500px] lg:max-h-[700px] w-full pt-20"
     >
       <section className="px-5 lg:px-20 w-full bg-gray-100 h-full flex flex-col gap-y-14 lg:flex-row lg:items-center">
         <section className="w-full lg:w-1/2 px-0 lg:px-10 flex flex-col gap-4 pt-10 lg:pt-0">

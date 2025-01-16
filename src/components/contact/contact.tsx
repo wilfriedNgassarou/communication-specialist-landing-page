@@ -5,7 +5,7 @@ import { ContactAddressItem } from "./contact-address-item";
 
 export function Contact() {
   return (
-    <section className="px-5 lg:px-32 w-full h-auto lg:h-dvh flex items-center">
+    <section className="px-5 lg:px-32 w-full h-auto lg:h-dvh lg:min-h-[500px] lg:max-h-[700px] flex items-center">
       <section className="w-full h-full relative -bottom-14 bg-white flex flex-col gap-y-12 lg:flex-row lg:items-center rounded-lg shadow-2xl px-5 py-5 lg:py-0 lg:px-10">
         <section className="w-full lg:w-1/2 flex flex-col gap-3 pr-8">
           <h2 className="font-semibold text-2xl lg:text-3xl">Let's discuss your Project</h2>
