@@ -16,9 +16,15 @@ export function Footer() {
           </p>
         </section>
         <section className="flex flex-col md:flex-row md:justify-between">
-          <div>Coded by <a className="text-blue-500 underline underline-offset-2" href="">Wilfried Ngassarou</a> </div>
-          <a className="text-blue-500 underline underline-offset-2 font-medium" href="">Source code</a>
-          <div>Designed by <a className="text-blue-500 underline underline-offset-2" href="">Tony Pijeke</a> </div>
+          <div>Coded by <a className="text-blue-500 underline underline-offset-2" target="_blank" href="https://x.com/Wilfried_Ng23">Wilfried Ngassarou</a> </div>
+          <a 
+            className="text-blue-500 underline underline-offset-2 font-medium" 
+            target="_blank"
+            href="https://www.figma.com/design/pCm4Ny7LP4uW4iWU7kVO5A/STEFFI?node-id=135-701&t=Kgtv9UKckksFd4m5-0"
+          >
+            Source code
+          </a>
+          <div>Designed by <a className="text-blue-500 underline underline-offset-2" target="_blank" href="https://www.linkedin.com/in/abu-metanji-tony-steve-76219a260">Tony Pijeke</a> </div>
         </section>
       </footer>
     </>
