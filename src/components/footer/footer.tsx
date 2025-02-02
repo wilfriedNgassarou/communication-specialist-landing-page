@@ -20,7 +20,7 @@ export function Footer() {
           <a 
             className="text-blue-500 underline underline-offset-2 font-medium" 
             target="_blank"
-            href="https://www.figma.com/design/pCm4Ny7LP4uW4iWU7kVO5A/STEFFI?node-id=135-701&t=Kgtv9UKckksFd4m5-0"
+            href="https://github.com/wilfriedNgassarou/communication-specialist-landing-page"
           >
             Source code
           </a>
